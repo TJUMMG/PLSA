@@ -7,7 +7,6 @@ The 3D Lookup Table (3DLUT)-based methods are gaining popularity due to their sa
 ## Method 
 
 ![图片描述](./method_picture.png)
-
 Fig. 1. Illustration of the proposed Network. We first send the resized low-resolution portrait input image to the two starting points, corresponding to the dual-branches, namely Weight Analysis branch(upper) and Intensity Encoder branch(lower). Afterwards, we perform pixel-wise multiplication between the obtained 3DLUT enhanced image ILut and the Intensity Weight map ωIntensity for the initial enhanced images Im. Next, the Im and input Iin are sent to the Saturation-Aware Compensation module, which elaborately estimate the difference in saturation values as the guide to generate SA map for adaptative
 saturation and contrast transform. Finally we add Im and SA map together to gain the high-quality Iout.
 
