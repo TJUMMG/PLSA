@@ -1,4 +1,4 @@
-Pixel-Learnable 3DLUT with Saturation-Aware Compensation for Image Enhancement
+# Pixel-Learnable 3DLUT with Saturation-Aware Compensation for Image Enhancement
 
 ## Abstract
 
@@ -113,7 +113,7 @@ python validation.py --data_path [path_to_dataset] --gpu_id [gpu_id] --model_dir
 ```bibtex
 @article{Liu2021PixelLearnable3DLUT,
   title={Pixel-Learnable 3DLUT with Saturation-Aware Compensation for Image Enhancement},
-  author={Jing Liu and Qingying Li and Xiongkuo Min and Yuting Su and Guangtao Zhai and Xiaokang Yang},
+  author={Jing Liu, Qingying Li, Xiongkuo Min, Yuting Su, Guangtao Zhai and Xiaokang Yang},
   journal={IEEE Journal of LaTeX Class Files},
   volume={14},
   number={8},
