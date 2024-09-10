@@ -1,5 +1,13 @@
 Pixel-Learnable 3DLUT with Saturation-Aware Compensation for Image Enhancement
 
+## Abstract
+
+Abstract—The 3D Lookup Table (3DLUT)-based methods are gaining popularity due to their satisfactory and stable performance in achieving automatic and adaptive real time image enhancement. In this paper, we present a new solution to the intractability in handling continuous color transformations of 3DLUT due to the lookup via three independent color channel coordinates in RGB space. Inspired by the inherent merits of the HSV color space, we separately enhance image intensity and color composition. The Transformer-based Pixel-Learnable 3D Lookup Table is proposed to undermine contouring artifacts,which enhances images in a pixel-wise manner with non-local information to emphasize the diverse spatially variant context. In addition, noticing the underestimation of composition color component, we develop the Saturation-Aware Compensation (SAC) module to enhance the under-saturated region determined by an adaptive SA map with Saturation-Interaction block, achieving well balance between preserving details and color rendition.Our approach can be applied to image retouching and tone mapping tasks with fairly good generality, especially in restoring localized regions with weak visibility. The performance in both theoretical analysis and comparative experiments manifests that the proposed solution is effective and robust.
+
+## Method 
+
+![图片描述](图片路径)
+
 ## Data Preparation
 
 PPR10K Dateset：
